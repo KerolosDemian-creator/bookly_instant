@@ -12,7 +12,7 @@ class SplashBody extends StatelessWidget {
       children: [
         Center(
           child: Text(
-            'Welcome To Bookly Instant , Hello',
+            'Welcome To Bookly Instant , Hellooo',
             style: AppStyles.textStyle18W700,
           ),
         ),
