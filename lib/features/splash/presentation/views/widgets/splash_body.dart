@@ -12,13 +12,15 @@ class SplashBody extends StatelessWidget {
       children: [
         Center(
           child: Text(
-            'Welcome To Bookly Instant',
+            'Welcome To Bookly Instant , Hello',
             style: AppStyles.textStyle18W700,
           ),
         ),
-        MaterialButton(onPressed: (){
-          Navigator.pushNamed(context, '/home');
-        })
+        MaterialButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/home');
+          },
+        ),
       ],
     );
   }
